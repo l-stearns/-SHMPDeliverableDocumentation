@@ -1,4 +1,4 @@
-# SHMPDeliverableDocumentation
+# SHMP DeliverableDocumentation
 
 #### Figure 1. National Risk Index for Community Resilience
 *     Figure: 
