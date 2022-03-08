@@ -80,8 +80,10 @@
 *     Source code:
 #### Table 14 Presidential declared disaster Events in the State of Texas
 *     Figure: 
-*     WMS Link: https://geonode.tdis.io/geoserver/geonode/wms?service=WMS&version=1.1.0&request=GetMap&layers=geonode%3ATotal_disaster_declarations_by_hazard
-*     Shapefile Link: https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3ATotal\_Disaster\_Declarations&maxFeatures=50&outputFormat=SHAPE-ZIP
+*     WMS Link: [https://geonode.tdis.io/geoserver/geonode/wms?service=WMS&version=1.1.0&request=GetMap&layers=geonode%3ATotal_disaster_declarations_by_hazard](https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3ATotal_Disaster_Declarations_by_hazard&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers)
+
+
+*     Shapefile Link: https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3ATotal_Disaster_Declarations&maxFeatures=50&outputFormat=SHAPE-ZIP
 *     Style Name: Disaster Declarations
 *     column: total_disasters
 *     Source code:
