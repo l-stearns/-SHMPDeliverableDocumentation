@@ -89,9 +89,10 @@
 *     Source code:
 #### Figure 15 Historic Crop Damage from all disasters
 *     Figure: 
-*     WMS Link:
+*     WMS Link: [https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers](https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers)
+*     Shapefile Link:[https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP](https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP)
 *     Style Name: 
-*     column:
+*     column:crop_dmg_percap_total
 *     Source code:
 #### Table/Figure 16 Number of State Owned Buildings by Agency
 *     Figure: 
@@ -248,9 +249,10 @@
 *     Source code:
 #### Figure 41 Historic Crop Damage from flood disasters
 *     Figure: 
-*     WMS Link:
+*     WMS Link: [https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers](https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers)
+*     Shapefile Link:[https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP](https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP)
 *     Style Name: 
-*     Columns:
+*     Columns:crop_dmg_percap_flood
 *     Source code:
 #### Table/Figure 42 Residential Building Stock  Potential Averge Annualized Losses
 *     Figure: 
@@ -407,9 +409,10 @@
 *     Source code:
 #### Figure 67 Historic Crop Damage from all fire hazards
 *     Figure: 
-*     WMS Link:
+*     WMS Link: [https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers](https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers)
+*     Shapefile Link:[https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP](https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP)
 *     Style Name: 
-*     Column:
+*     Column: crop_dmg_percap_fire
 *     Source code:
 #### Table 68 State Road Exposure to the fire burn probability
 *     Figure: 
@@ -461,9 +464,10 @@
 *     Source code:
 #### Figure 76 Drought Hazard loss by Region, County, and Zip Code
 *     Figure: 
-*     WMS Link:
+*     WMS Link: [https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers](https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers)
+*     Shapefile Link:[https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP](https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP)
 *     Style Name: 
-*     Column:
+*     Column: property_dmg_percap_drought
 *     Source code:
 #### Figure 77 Mean Annual Precipitation Rainfall for the state
 *     Figure: 
@@ -485,9 +489,10 @@
 *     Source code:
 #### Figure 80 Historic Crop Damage from all drought hazards
 *     Figure: 
-*     WMS Link:
+*     WMS Link: [https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers](https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers)
+*     Shapefile Link:[https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP](https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP)
 *     Style Name: 
-*     Column:
+*     Column: crop_dmg_percap_drought
 *     Source code:
 #### Figure 81 Future Projections of Drought Based on Historical Data and Future Climate Projections
 *     Figure: 
@@ -509,8 +514,9 @@
 *     Source code:
 #### Figure 84 Lightning strike days per region, county and zip code
 *     Figure: 
-*     WMS Link:
-*     Style Name: 
+*     WMS Link: [https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers](https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers)
+*     Shapefile Link:[https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP](https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP)
+*     Style Name:  duration_days_lightning
 *     Column:
 *     Source code:
 #### Figure 85 Lightning Hazard Ranking by Region, County, and Zip Code
@@ -521,9 +527,10 @@
 *     Source code:
 #### Figure 86 Lightning Hazard Loss by Region, County, and Zip Code
 *     Figure: 
-*     WMS Link:
+*     WMS Link: [https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers](https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers)
+*     Shapefile Link:[https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP](https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP)
 *     Style Name: 
-*     Column:
+*     Column: property_dmg_percap_lightning
 *     Source code:
 #### Figure 87 Hailstorm Hazard Ranking by Region, County, and Zip Code
 *     Figure: 
@@ -539,21 +546,24 @@
 *     Source code:
 #### Figure 89 Hailstorm loss by Region, County, and Zip Code
 *     Figure: 
-*     WMS Link:
+*     WMS Link: [https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers](https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers)
+*     Shapefile Link:[https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP](https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP)
 *     Style Name: 
-*     Column:
+*     Column: property_dmg_percap_hail
 *     Source code:
 #### Figure 90 Hailstorm event days per Region, County, and Zip Code
 *     Figure: 
-*     WMS Link:
+*     WMS Link: [https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers](https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers)
+*     Shapefile Link:[https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP](https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP)
 *     Style Name: 
-*     Column:
+*     Column: duration_days_hail
 *     Source code:
 #### Figure 91 Historic Crop Damage from all hailstorm hazards
 *     Figure: 
-*     WMS Link:
+*     WMS Link: [https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers](https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers)
+*     Shapefile Link:[https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP](https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP)
 *     Style Name: 
-*     Column:
+*     Column: crop_dmg_percap_hail
 *     Source code:
 #### Table 92 2010 U.S. Census Population Located in risk areas
 *     Figure: 
@@ -635,15 +645,17 @@
 *     Source code:
 #### Figure 105 Tornado loss by Region, County, and Zip Code
 *     Figure: 
-*     WMS Link:
+*     WMS Link: [https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers](https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers)
+*     Shapefile Link:[https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP](https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP)
 *     Style Name: 
-*     Column:
+*     Column: property_dmg_percap_tornado
 *     Source code:
 #### Figure 106 Tornado event days per Region, County, and Zip Code
 *     Figure: 
-*     WMS Link:
+*     WMS Link: [https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers](https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers)
+*     Shapefile Link:[https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP](https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP)
 *     Style Name: 
-*     Column:
+*     Column: duration_days_tornado
 *     Source code:
 #### Figure 107 Tornado related declared Events in the state of Texas
 *     Figure: 
@@ -656,9 +668,10 @@
 *     Source code:
 #### Figure 108 Historic Crop Damage from all tornado hazards
 *     Figure: 
-*     WMS Link:
+*     WMS Link: [https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers](https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers)
+*     Shapefile Link:[https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP](https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP)
 *     Style Name: 
-*     Column:
+*     Column: crop_dmg_percap_tornado
 *     Source code:
 #### Table 109 Population Projection/change and  Tornado risk areas
 *     Figure: 
@@ -698,21 +711,24 @@
 *     Source code:
 #### Figure 115 Extreme Heat loss by Region, County, and Zip Code
 *     Figure: 
-*     WMS Link:
+*     WMS Link: [https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers](https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers)
+*     Shapefile Link:[https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP](https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP)
 *     Style Name: 
-*     Column:
+*     Column: property_dmg_percap_heat
 *     Source code:
 #### Figure 116 Historic Crop Damage from all extreme heat hazards
 *     Figure: 
-*     WMS Link:
+*     WMS Link: [https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers](https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers)
+*     Shapefile Link:[https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP](https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP)
 *     Style Name: 
-*     Column:
+*     Column: crop_dmg_percap_heat
 *     Source code:
 #### Figure 117 Extreme Heat event days per Region, County, and Zip Code
 *     Figure: 
-*     WMS Link:
+*     WMS Link: [https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers](https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers)
+*     Shapefile Link:[https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP](https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP)
 *     Style Name: 
-*     Column:
+*     Column: duration_days_heat
 *     Source code:
 #### Table 118 Population exposed to extreme heat
 *     Figure: 
@@ -746,21 +762,24 @@
 *     Source code:
 #### Figure 123 Severe winter loss by Region, County, and Zip Code
 *     Figure: 
-*     WMS Link:
+*     WMS Link: [https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers](https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers)
+*     Shapefile Link:[https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP](https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP)
 *     Style Name: 
-*     Column:
+*     Column: property_dmg_percap_winter_weather
 *     Source code:
 #### Figure 124 Historic Crop Damage from all severe winter hazards
 *     Figure: 
-*     WMS Link:
+*     WMS Link: [https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers](https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers)
+*     Shapefile Link:[https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP](https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP)
 *     Style Name: 
-*     Column:
+*     Column: crop_dmg_percap_winter_weather
 *     Source code:
 #### Figure 125 Severe Winter event days per Region, County, and Zip Code
 *     Figure: 
-*     WMS Link:
+*     WMS Link: [https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers](https://geonode.tdis.io/geoserver/SHMP/wms?service=WMS&version=1.1.0&request=GetMap&layers=SHMP%3Asheldus_impacts_counties&bbox=873007.05156172%2C6861634.7847104585%2C2118138.7215366308%2C8045416.557879455&width=768&height=730&srs=EPSG%3A3083&styles=&format=application/openlayers)
+*     Shapefile Link:[https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP](https://geonode.tdis.io/geoserver/SHMP/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=SHMP%3Asheldus_impacts_counties&maxFeatures=50&outputFormat=SHAPE-ZIP)
 *     Style Name: 
-*     Column:
+*     Column: duration_days_winter_weather
 *     Source code:
 #### Table 126 2010 U.S. Census Population Located in risk areas
 *     Figure: 
@@ -774,12 +793,12 @@
 *     Style Name: 
 *     Column:
 *     Source code:
-#### Figure 128 Texas Environmental
+#### Figure 128 Texas Environmental Sensitivity Index
 *     Figure: 
 *     WMS Link:
 *     Style Name: 
 *     Column:
-*     Source code: Sensitivity Index
+*     Source code: 
 #### Figure 129 Insured Loss from extreme events
 *     Figure: 
 *     WMS Link:
