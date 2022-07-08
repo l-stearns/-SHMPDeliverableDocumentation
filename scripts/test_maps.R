@@ -86,7 +86,7 @@ map_basic <- ggplot() +
 plotly::ggplotly(map_basic) #better but still a little wonky, legend formatting will probably need to happen in plotly 
 
 
-# #### region 2 level map ####
+#### region 2 level map ####
 # #join regions to disaster declarations 
 # tdem_2 <- tdem %>% 
 #   filter(region_num == 2)
@@ -141,7 +141,7 @@ sheldus <- st_read(request)
 st_crs(sheldus) = 3083
 
 
-#### Lightning ####
+### Lightning ###
 #try different breaks
 lightning_qt = classIntervals(sheldus$property_dmg_lightning, n = 5, style = "quantile", dataPrecision = 1)
 
@@ -186,7 +186,7 @@ map_lightning
 
 ggsave("/Users/lstearns/projects/shmp/figures/lightning_days.png", map_lightning, height = 5, width = 7, dpi = 300)
 
-#### Winter Weather ####
+### Winter Weather ###
 winter_dmg_qt=classIntervals(sheldus$property_dmg_percap_winter_weather, n=5, style = "quantile", dataPrecision = 1)
 
 winter_dmg_pretty=classIntervals(sheldus$property_dmg_percap_winter_weather, n=5, style = "pretty", dataPrecision = 1)
@@ -221,7 +221,7 @@ map_winter <- ggplot() +
 map_winter
 ggsave("/Users/lstearns/projects/shmp/figures/winter_dmg.png", map_winter, height = 5, width = 7, dpi = 300)
 
-#### Wild Fire ####
+### Wild Fire ###
 fire_dmg_qt=classIntervals(sheldus$property_dmg_percap_fire, n=5, style = "quantile", dataPrecision = 1)
 
 fire_dmg_pretty=classIntervals(sheldus$property_dmg_percap_fire, style = "pretty", dataPrecision = 1)
@@ -287,7 +287,7 @@ map_fire_zeros
 
 ggsave("/Users/lstearns/projects/shmp/figures/fire_dmg_zeros.png", map_fire_zeros, height = 5, width = 7, dpi = 300)
 
-#### Drought ####
+### Drought ###
 drought_crop_dmg_qt=classIntervals(sheldus$crop_dmg_percap_drought,n=5, style = "quantile", dataPrecision = 1)
 drought_crop_dmg_jnk=classIntervals(sheldus$crop_dmg_percap_drought, n=5, style = "jenks", dataPrecision = 1)
 drought_crop_dmg_prty=classIntervals(sheldus$crop_dmg_percap_drought, style = "pretty", dataPrecision = 1)
@@ -321,7 +321,7 @@ map_drought <- ggplot() +
 map_drought
 ggsave("/Users/lstearns/projects/shmp/figures/drought_crop_dmg.png", map_drought, height = 5, width = 7, dpi = 300)
 
-#### Tornado ####
+### Tornado ###
 tornado_dmg_qt=classIntervals(sheldus$property_dmg_percap_tornado,n = 6,style = "quantile", dataPrecision = 1)
 tornado_dmg_jnk=classIntervals(sheldus$property_dmg_percap_tornado, style = "jenks", dataPrecision = 1)
 tornado_dmg_prty=classIntervals(sheldus$property_dmg_percap_tornado, style = "pretty", dataPrecision = 1)
@@ -356,7 +356,7 @@ map_tornado <- ggplot() +
 map_tornado
 ggsave("/Users/lstearns/projects/shmp/figures/tornado_dmg_qt.png", map_tornado, height = 5, width = 7, dpi = 300)
 
-#### Wind ####
+### Wind ###
 wind_day_prty=classIntervals(sheldus$duration_days_wind, n = 5, style = "pretty", dataPrecision = 1)
 
 sheldus_map <- sheldus %>% 
@@ -389,7 +389,7 @@ map_wind
 ggsave("/Users/lstearns/projects/shmp/figures/wind_days.png", map_wind, height = 5, width = 7, dpi = 300)
 
 
-#### Flood ####
+### Flood ###
 flood_dmg_qt=classIntervals(sheldus$property_dmg_percap_flood,n=5, style = "quantile", dataPrecision = 1)
 flood_dmg_jk=classIntervals(sheldus$property_dmg_percap_flood,n=5, style = "jenks", dataPrecision = 1)
 
@@ -423,7 +423,7 @@ map_flood
 ggsave("/Users/lstearns/projects/shmp/figures/flood_dmg.png", map_flood, height = 5, width = 7, dpi = 300)
 
 
-####Hurricanes####
+###Hurricanes###
 hurricane_dmg_qt=classIntervals(sheldus$property_dmg_percap_hurricane, style = "quantile", dataPrecision = 1)
 hurricane_dmg_jk=classIntervals(sheldus$property_dmg_percap_hurricane,n=6, style = "jenks", dataPrecision = 1)
 hurricane_dmg_pt=classIntervals(sheldus$property_dmg_percap_hurricane,n=6, style = "pretty")
@@ -457,7 +457,7 @@ map_hurricane <- ggplot() +
 map_hurricane
 ggsave("/Users/lstearns/projects/shmp/figures/hurricane_dmg.png", map_hurricane, height = 5, width = 7, dpi = 300)
 
-#### hailstorm ####
+### hailstorm ###
 hail_days_qt=classIntervals(sheldus$duration_days_hail,n=5, style = "quantile", dataPrecision = 1)
 
 
@@ -490,7 +490,7 @@ map_hail <- ggplot() +
 map_hail
 ggsave("/Users/lstearns/projects/shmp/figures/hail_days.png", map_hail, height = 5, width = 7, dpi = 300)
 
-#### severe storm ####
+### severe storm ###
 storm_days_qt=classIntervals(sheldus$duration_days_severe_storm,n=6, style = "quantile", dataPrecision = 1)
 
 
@@ -523,7 +523,7 @@ map_storm <- ggplot() +
 map_storm
 ggsave("/Users/lstearns/projects/shmp/figures/storm_days.png", map_storm, height = 5, width = 7, dpi = 300)
 
-#### grey scale disaster declarations ####
+### grey scale disaster declarations ###
 grey_5 <- c("#F1E8E4","#B6B1B7", "#9A97A2", "#676678", "#27283C")
 
 map_grey <- ggplot() + 
@@ -549,6 +549,8 @@ map_grey <- ggplot() +
 map_grey 
 
 ggsave("/Users/lstearns/projects/shmp/figures/grey_declarations.png", map_grey, height = 5, width = 7, dpi = 300)
+
+
 
 
 
